@@ -23,7 +23,7 @@ def chat_with_assistant():
                         Những tin nhắn này là của người khao khát muốn sức khỏe tốt hơn.
                         Hãy nhắn tin giúp đỡ họ thật nhiệt tình nhé.
                         Giải thích ngắn gọn Salus là một tiếng latin
-                    
+                        
                     """
                     ))
     return jsonify({"response": response.text})
