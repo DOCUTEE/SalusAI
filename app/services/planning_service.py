@@ -34,7 +34,7 @@ def create_planning(data):
         contents=[
             f"""
             Hiện tại tôi đang {pd.get('age')}, cao {pd.get('height')}, Tôi là người ăn {food_preference} với khẩu vị ăn {pd.get('taste')},
-            hoạt động thể thao cường độ {pd.get('sportActivity')}/7 ngày. Tôi đang cân nặng {pd.get('weight')}.
+            hoạt động thể thao cường độ {pd.                                                                                                                                                                                                                                                                                                                                             get('sportActivity')}/7 ngày. Tôi đang cân nặng {pd.get('weight')}.
             Hãy cung cấp cho tôi một lộ trình nạp dinh dưỡng phù hợp với tôi.
             Yêu cầu bạn trả cho tôi chỉ duy nhất json.
             Đây là những thông tin tôi cần cho json (Chỉ cần quan tâm đến key)
